@@ -1,34 +1,32 @@
-# 📸 Biblioteca de Imagens – App Flutter
+# 📸 Biblioteca de Imagens
 
-Este projeto é uma aplicação Flutter desenvolvida como parte da disciplina de Desenvolvimento Mobile com Flutter e Dart.
+Este é um aplicativo Flutter desenvolvido como parte da Atividade Integradora. O objetivo principal é permitir que o usuário adicione, visualize, edite e exclua imagens com uma breve descrição, utilizando persistência de dados local com SQLite.
 
-## ✅ Funcionalidades
+## 🚀 Funcionalidades
 
-- Listagem de imagens salvas
-- Adição de imagens com descrição
-- Visualização da imagem completa
-- Edição e exclusão das imagens
+- Adicionar imagem da galeria com descrição
+- Visualizar todas as imagens em uma grade estilizada
+- Editar e excluir imagens
+- Visualizar imagem em tela cheia
 - Armazenamento local com SQLite
+- Design moderno, responsivo e com animações
 - Navegação entre telas
-- Gerenciamento de estado com Provider
-- Interface responsiva
-- Integração com API (em construção)
-- Preparação para build Android
+- Gerenciamento de estado com `Provider`
 
-## 📱 Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- Flutter + Dart
-- SQLite (`sqflite`)
-- Provider (`provider`)
-- Integração com API (`http`)
-- Suporte a Android
+- Flutter
+- Dart
+- SQLite (via `sqflite`)
+- Provider
+- Image Picker
+- Material Design
 
-## 🚀 Como executar
 
-1. Clone o repositório:
+ Clone o repositório:
+ 
+   git clone https://github.com/seu-usuario/biblioteca-imagens.git
+   cd biblioteca-imagens
 
-```bash
-git clone https://github.com/SEU_USUARIO/biblioteca_imagens.git
-cd biblioteca_imagens
-
-flutter pub get
+   flutter pub get
+   flutter run
